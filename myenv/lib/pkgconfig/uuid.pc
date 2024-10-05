@@ -1,0 +1,11 @@
+prefix=/home/suresh143/Documents/MLProject1/myenv
+exec_prefix=/home/suresh143/Documents/MLProject1/myenv
+libdir=/home/suresh143/Documents/MLProject1/myenv/lib
+includedir=/home/suresh143/Documents/MLProject1/myenv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
